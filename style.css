@@ -1,0 +1,144 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    background-color: #444;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+form {
+    padding: 20px;
+}
+
+.amount p,
+.from p,
+.to p {
+    color: #bbb;
+}
+
+.amount input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+}
+
+.select-box {
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.select-box img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.select-box select {
+    flex: 1;
+    border: none;
+    background: none;
+    color: #fff;
+    outline: none;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icon i {
+    font-size: 24px;
+    color: #fff;
+}
+
+.exchange-rate {
+    text-align: center;
+    margin-top: 20px;
+    color: #bbb;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #8c52ff;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #7832ff;
+}
+
+.footer {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #bbb;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer a {
+    color: #8c52ff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.info {
+  font-size: 14px;
+  color: #aaa;
+  text-align: center;
+}
+
+.info a {
+  color: #7832ff; 
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
